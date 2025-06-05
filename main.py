@@ -1,5 +1,6 @@
-# from basics import basics
-#
-#
-# if __name__ == "__main__":
-#     basics.main()
+import abcd
+from basics import testy 
+
+if __name__ == "__main__":
+   print(testy.test_func())
+   print(abcd.some_abc_func())
